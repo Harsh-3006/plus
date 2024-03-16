@@ -16,10 +16,10 @@ export default function Navbar(props) {
   // }
 
   var colorChanger=(mode)=>{
-    if(mode==='green'||mode==='light'){
+    if(mode==='light'){
       return 'dark'
     }
-    if(mode==='dark'||mode==='red'){
+    if(mode==='dark'||mode==='red'||mode==='green'){
       return 'light'
     }
   }

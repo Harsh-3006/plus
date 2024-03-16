@@ -62,7 +62,7 @@ export default function TextForm(promp) {
 
 
    
-  // console.log(promp.mode)
+  console.log(promp.mode)
   // console.log(mode)
   const bcolor=(mode)=>{
     if(mode==='dark'){
@@ -107,9 +107,10 @@ const setbackgroundColor=(mode)=>{
   }
 }
 const setTextColor=(mode)=>{
-  if(mode==='dark'||'red'){
+  if(mode==='dark'||mode==='red'||mode==='green'){
     return 'white'
-  }else{
+  }
+  if(mode==='light'){
     return 'black'
   }
 }
