@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 export default function About(promps) {
-  const [myStyle, setMyStyle] = useState(null)
 
   // const [btnText,setBtnText]=useState('Enable light mode')
   // console.log(promps.mode)

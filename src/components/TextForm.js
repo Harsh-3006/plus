@@ -67,7 +67,6 @@ export default function TextForm(promp) {
   const bcolor=(mode)=>{
     if(mode==='dark'){
       return 'btn-dark'
-      console.log(mode)
     }
     if(mode==='light'){
       return 'btn-outline-primary'
